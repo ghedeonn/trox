@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trox Technik</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="version__one">
+                <div class="card__interior">
+                    <img src="images/interior_1.jpg" alt="interior 1">
+                </div>
+                <div class="card__exterior">
+                    <img src="images/exterior_1.png" alt="exterior 1">
+                </div>
+            </div>
+    
+            <div class="version__two is-hidden">
+                <div class="card__interior">
+                    <img src="images/interior_2.jpg" alt="interior 2">
+                </div>
+                <div class="card__exterior">
+                    <img src="images/exterior_2.png" alt="exterior 2">
+                </div>
+            </div>
+        </div>
+    
+        <div class="controls">
+            <div class="controls__control">
+                <button class="button__control" data-toggle="version">Toggle Side</button>
+            </div>
+
+            <div class="controls__control">
+                <input type="range" min="1" max="1000" value="500" class="slider" step="1" data-slider>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
