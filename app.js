@@ -30,6 +30,7 @@ $(document).ready(function(){
         $('.version__two').toggleClass('is-hidden');
 
         slider.val(500);
+        $('.card__interior').css('left', 0);
     });
 
 });
